@@ -1,7 +1,8 @@
 package com.example.bunnyapi.model;
 
 import jakarta.persistence.*;
-import java.util.Date;
+
+import java.time.LocalDate;
 
 @Entity
 public class Bunny {
@@ -20,7 +21,7 @@ public class Bunny {
     private double age;
 
     private String favoriteFood;
-    private Date arrivalDate;
+    private LocalDate arrivalDate;
 
     // Getters and Setters
     public Long getBunnyId() { return bunnyId; }
@@ -41,6 +42,6 @@ public class Bunny {
     public String getFavoriteFood() { return favoriteFood; }
     public void setFavoriteFood(String favoriteFood) { this.favoriteFood = favoriteFood; }
 
-    public Date getArrivalDate() { return arrivalDate; }
-    public void setArrivalDate(Date arrivalDate) { this.arrivalDate = arrivalDate; }
+    public LocalDate getArrivalDate() { return arrivalDate; }
+    public void setArrivalDate(LocalDate arrivalDate) { this.arrivalDate = arrivalDate; }
 }
