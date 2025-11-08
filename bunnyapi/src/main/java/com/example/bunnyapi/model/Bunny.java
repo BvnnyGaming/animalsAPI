@@ -17,6 +17,8 @@ public class Bunny {
     @Column(nullable = false)
     private String description;
 
+    private String imagePath;
+
     private String breed;
     private double age;
 
@@ -44,4 +46,7 @@ public class Bunny {
 
     public LocalDate getArrivalDate() { return arrivalDate; }
     public void setArrivalDate(LocalDate arrivalDate) { this.arrivalDate = arrivalDate; }
+
+    public String getImagePath() { return imagePath; }
+    public void setImagePath(String imagePath) { this.imagePath = imagePath; }
 }
