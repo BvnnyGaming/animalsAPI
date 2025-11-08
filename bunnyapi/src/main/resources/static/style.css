@@ -1,0 +1,134 @@
+
+body {
+    background-color: aquamarine;
+
+}
+input {
+    align-content: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: darkcyan;
+    border: 2px solid black;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a.hover {
+    background-color:rgb(1, 53, 53);
+    color: black;
+}
+.topnav a.active {
+    background-color:cadetblue;
+}
+
+.button{
+    background-color:rgb(46, 177, 133);
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px;
+}
+.blueButton{
+    background-color: rgb(51, 207, 247);
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px;
+}
+.redButton{
+    background-color: rgb(182, 10, 110);
+    border: none;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.imageButton{
+    background-color:rgb(46, 177, 133);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.pageTitle{
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(77, 223, 174);
+    border: 2px solid black;
+}
+
+.topWrapper
+{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-basis: content;
+    align-content:end;
+}
+.wrapper
+{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-basis: content;
+    
+}
+.colWrapper
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-basis: content;
+    background-color: rgb(77, 223, 174);;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+.addAnimalInput{
+    width: 100%;
+    background-color: rgb(72, 192, 152);
+    box-sizing: border-box;
+}
+
+.text-div{
+    margin:10px 0px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.image-div
+{
+    flex: 1;
+    margin: 10px;
+    background-color: rgb(77, 223, 174);
+    border: 2px solid black;
+}
